@@ -33,6 +33,7 @@ INSTRUCTIONS TO RUN:
 	Now, run: node elasticindex.js in cmd or terminal
 
 3) To see the results of ForerunnerDB, run: node \js\list.js
+	More info on forerunnerDB: https://www.npmjs.com/package/forerunnerdb
 
 
  
