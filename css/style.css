@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.jumbotron {
+	background-image: url('../images/plants.jpg');
+	background-size: contain;
+	color: white;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+	padding-bottom: 25%;
+}
+
+#why {
+  z-index: 1;
+  padding-top: 5vh;
+  background-color: #F79258; /*pastel orange*/
+}
+
+#why p {
+	font-size: 45px; 
+}
+
+#search {
+  z-index: 1;
+  padding-top: 25vh;
+  background-color: #03202E;
+  padding-bottom: 20%;
+}
+
+#contact {
+  padding-top: 10%;
+  color: #000;
+  padding-bottom: 5vh;
+}
+#contact p h3 {
+	padding-bottom: 7%
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+#ipbtn {
+	color: white;
+	background-color: transparent;
+	border: none
+}
+
+#ipbtn:hover {
+    background-color: #3e3f44;
+}
+
+#ipbtn2 {
+	color: white;
+	background-color: transparent;
+	border: none
+}
+
+#ipbtn2:hover {
+    background-color: #3e3f44;
+}
+	
+	
+::-webkit-input-placeholder {
+   font-size: 22px!important;
+}
+	
+	
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    background-size: cover;
+
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+}
+
+
+h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+#jumbo h1 {
+  font-size: 66px;
+  font-family: Montserrat, sans-serif;
+}
+
+#navbar {
+    position: absolute;
+    z-index: 9;
+    top: 1vh;
+    left: 2vh;
+    right: 2vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #222;
+    font-family: Montserrat, sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+}
+
+#navbar li {
+    position: relative;
+    z-index: 9;
+    float: left;
+    display: inline-block;
+    line-height: 60px;
+    background: inherit;
+    text-align: center;
+    transition: all .2s;
+}
+
+#navbar li a {
+    position: relative;
+    z-index: 9;
+    display: block;
+    padding: 0 20px;
+    line-height: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    background: #222;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    transition: all 0, background .2s;
+}
+
+#navbar li:hover:before {
+    margin-top: 1px;
+    border-radius: 50% 50% 0 50%;
+    transition: all .1s, background .2s, margin-top .2s cubic-bezier(.5,30,.2,0);
+}
+
+#navbar li:hover,
+#navbar li:hover:before {
+    background: #3a3a3a;
+}
+
+#navbar li.active,
+#navbar li.active:before {
+    background: steelblue;
+}
+
+.nav li a:hover {
+  background-color: inherit !important;
+}
+
+.nav li a:focus {
+  background-color: inherit !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#myModal {
+  color: black;
+}
+#info p {
+	position: middle;
+	padding-bottom: 250px;
+}
+
+#ipbox{
+	width:50%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+	color: #000;
+	font-size: 17px;
+}
+
+#ipbox:focus{
+	border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+#dynamicInput{
+	color: #000;
+	box-shadow: dodgerBlue;
+	font-size: 30px;
+	transition:.3s;
+	padding: .6em .7em;
+}	
+
